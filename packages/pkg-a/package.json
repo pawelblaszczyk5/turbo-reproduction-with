@@ -2,6 +2,7 @@
   "name": "pkg-a",
   "scripts": {
     "build": "echo \"Building at the speed of Turbo.\" > output-file.txt && cat output-file.txt",
+    "dev": "echo \"Running dev pkg-a\"",
     "lint": "echo \"Linted!\"",
     "check-types": "echo \"Types checked!\""
   },
