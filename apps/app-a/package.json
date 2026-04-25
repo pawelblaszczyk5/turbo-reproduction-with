@@ -5,7 +5,7 @@
     "build": "mkdir -p dist && echo \"Your application output!\" > dist/app-output.txt && echo \"Application A is built!\"",
     "lint": "echo \"Linted!\"",
     "check-types": "echo \"Types checked!\"",
-    "dev": "while true; do echo \"running\"; sleep 3; done"
+    "dev": "echo \"Running dev app-a\""
   },
   "dependencies": {
     "pkg-a": "workspace:*",
